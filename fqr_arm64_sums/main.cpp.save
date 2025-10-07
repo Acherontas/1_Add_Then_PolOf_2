@@ -1,0 +1,23 @@
+#include <iostream>
+#include <math.h>
+#include <iomanip>
+#include "sum_cdi.h"
+using namespace std;
+
+int main(int argc,char** argv)
+{
+    long long int mynmb;
+    long long int first=1;
+    long long int rst;
+    int tms=0;
+    
+    cout<<"enter ur number , enter times :\n";
+    mynmb=stoll(argv[1]);
+    rst=first+mynmb;
+    sum_cdi *smcd=new sum_cdi();
+    smcd->cdi=0;
+    smcd->cdl=0;
+    cout<<rst << " with : " << smcd->cdis(0,rst);
+    for(int i=0;i<=tms;i++)
+    return 0;
+}

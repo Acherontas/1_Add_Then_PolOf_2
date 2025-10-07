@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1758954738 source:/home/acherontas/codeblocks/fqr_arm64_sums/sum_cdi.cpp
+	"sum_cdi.h"
+
+1758893193 /home/acherontas/codeblocks/fqr_arm64_sums/sum_cdi.h
+	<iostream>
+	<string>
+	<math.h>
+	<iomanip>
+
